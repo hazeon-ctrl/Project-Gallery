@@ -1,0 +1,101 @@
+header {
+    display: flex;
+    flex-direction: row;
+    flex: auto;
+    text-align: center;
+    justify-content: center;
+    background-color: #33cc33;
+    border-color: black;
+    border-style: solid;
+    border-width: thin;
+    border-radius: 5%;
+
+    font-family: Ubuntu;
+    .ubuntu-light {
+        font-family: "Ubuntu", sans-serif;
+        font-weight: 300;
+        font-style: normal;
+    }
+
+    .ubuntu-regular {
+        font-family: "Ubuntu", sans-serif;
+        font-weight: 400;
+        font-style: normal;
+    }
+
+    .ubuntu-medium {
+        font-family: "Ubuntu", sans-serif;
+        font-weight: 500;
+        font-style: normal;
+    }
+
+    .ubuntu-bold {
+        font-family: "Ubuntu", sans-serif;
+        font-weight: 700;
+        font-style: normal;
+    }
+
+    .ubuntu-light-italic {
+        font-family: "Ubuntu", sans-serif;
+        font-weight: 300;
+        font-style: italic;
+    }
+
+    .ubuntu-regular-italic {
+        font-family: "Ubuntu", sans-serif;
+        font-weight: 400;
+        font-style: italic;
+    }
+
+    .ubuntu-medium-italic {
+        font-family: "Ubuntu", sans-serif;
+        font-weight: 500;
+        font-style: italic;
+    }
+
+    .ubuntu-bold-italic {
+        font-family: "Ubuntu", sans-serif;
+        font-weight: 700;
+        font-style: italic;
+    }
+
+}
+
+.links {
+    background-color: lightgrey;
+    border-radius: 4%;
+    padding-left: 5%;
+}
+
+section{
+    font-weight: bolder;
+    border-style: double;
+    padding: 8px;
+    background-color: black;
+    color: white;
+    border-radius: 2%;
+}
+
+footer{
+    background-color: #33cc33;
+    text-align: center;
+    padding: 10px;
+    margin: auto;
+    border-radius: 5%;
+}
+
+.code-icon {
+    display: flex;
+    gap: 15px;
+    border-width: thin;
+    border-color: white;
+    background-color: grey;
+    padding: 3px;
+    margin: 10px;
+    border-radius: 5%;
+}
+
+details {
+    background-color: gray;
+    margin-left: 1%;
+}
