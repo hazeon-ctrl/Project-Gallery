@@ -80,6 +80,10 @@ section{
     border-radius: 2%;
 }
 
+li {
+    color: darkgreen;
+}
+
 footer{
     background-color: #33cc33;
     text-align: center;
