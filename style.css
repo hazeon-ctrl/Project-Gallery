@@ -45,6 +45,7 @@ h2 {
 
 .links a {
     transition: color 0.2s ease-in-out, text-decoration-color 0.2s ease-in-out;
+    font-size: 1.2em; /* slightly larger relative to surrounding text */
 }
 
 .links a:hover {
